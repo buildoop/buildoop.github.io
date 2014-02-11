@@ -65,9 +65,17 @@ configuration, compilation, build, install and remove instructions.</li><br>
 </ol>
 </p>
 
+<h3>
+<a name="designer-usage" class="anchor" href="#designer-usage"><span class="octicon octicon-link"></span></a>Buildoop usage example</h3>
+
+
 <pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+$ buildoop -targets
+$ buildoop -boms
+$ buildoop stable -info
+$ buildoop stable -build
+$ buildoop stable hadoop -info
+$ buildoop stable hadoop -build
 </code></pre>
 
     </div>
