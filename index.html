@@ -44,21 +44,32 @@ and tools to help you create custom Linux-based systems based on Hadoop ecosyste
 </ul>
 </p>
 
+<p>You can use any Linux distribution as foundation (Centos 6.x, Ubuntu 12.04.x, …) 
+and create add-ons with Buildoop to convert this distribution in a Hadoop Linux distribution.</p>
+
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Buildoop Project components</h3>
+
+<p>The Buildoop Project is splitted in the following parts:</p>
+
+<p>
+<ol>
+<li>Buildoop engine: a make-like build command line tool.</li>
+<li> A set of metadata information with “buildoop recipes”. 
+“buildoop recipes” specify how a particular package is built. 
+It includes all the package dependencies, source code locations,
+configuration, compilation, build, install and remove instructions.</li>
+<li>An Integration Test Framework.</li>
+<li>A set of configuration tools for bare-metal deployments.</li>
+</ol>
+</p>
+
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
     </div>
 
     <!-- FOOTER  -->
