@@ -96,22 +96,7 @@ for operating system deploy and software configuration.</li>
     Avro and is injected using Flume into kafka, the log is processed in the batch layer for long term 
     storage analysis. The same log entry is processed in the speed layer for incremental frame analysis, 
     or for other on-line analysis, for example the current logged users in the cluster.<br>
-    The whole tool set is built using Buildoop. The follwing is a list of the modules used in this
-    ecosystem:</p>
-
-<p>
-<ol>
-<li>The entry point to the system (Bus Layer): recipes/kafka </li><br>
-<li>The injection from kafka to Batch Layer: recipes/kafka-camus</li><br>
-<li>The Batch Layer: recipes/hadoop, recipes/oozie, recipes/zookeeper</li><br>
-<li>The Serving Layer: recipes/hbase</li>
-<li>The Speed Layer: recipes/storm</li>
-<li>The injection from Kafka to Storm: recipes/???</li>
-<li>The the processed data from Storm to HBase: recipes/storm-hbase<li>
-<li>The serialization system: recipes/avro-libs, ...<li>
-</ol>
-</p>
-
+    The whole tool set is built using Buildoop.</p>
 
 <p><img src="images/lambda-usecase.jpg" alt="Smiley face"></p>
 
